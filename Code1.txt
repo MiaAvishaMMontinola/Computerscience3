@@ -1,0 +1,6 @@
+float1 = float(input("Enter first number:"))
+float2 = float(input("Enter second number:"))
+float3 = float(input("Enter third number:"))
+sum = float1 + float2 + float3
+rounded_sum = round(sum,2)
+print("The final result is,", rounded_sum)
