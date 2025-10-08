@@ -1,0 +1,13 @@
+f_name = input("What is your full name, (Full name, first name, middle initial.):")
+parts = f_name.split(',')
+if len(parts) == 3:
+     last = parts[0].strip().title()
+     first = parts[1].strip().capitalize()
+     middle = parts[2].strip().capitalize()
+   
+     middle_i = middle[0] + "."
+   
+     final_name = f"{last}, {first} {middle_i}"
+     print("Formatted name:", final_name)
+else:
+  print("Invalid format") 
