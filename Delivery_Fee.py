@@ -11,5 +11,4 @@ rate = float(input("Enter rate per kilometer (₱): "))
 #Calculate delivery fee
 total_fee = calc_delivery_fee(distance, rate)
 
-#Show results
 print(f"Total Delivery Fee: ₱", total_fee)
